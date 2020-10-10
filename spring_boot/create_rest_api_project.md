@@ -113,3 +113,8 @@ java -jar spring-rest-api-1.0-SNAPSHOT.jar
 ```
 http://localhost:8080/greeting
 ```
+9. 如果内存不够，增加启动内存大小
+``` bash
+java -Xms256m -Xmx1024m -jar xxx.jar
+java -Xms256m -Xmx1024m -cp xxx.jar xxx.main.Class
+```
